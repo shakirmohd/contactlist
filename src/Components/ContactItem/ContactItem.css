@@ -1,0 +1,227 @@
+.contact-list-item {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+    min-width: 270px;
+}
+
+.contact-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 170px;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 14px;
+}
+
+.contact-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+}
+
+.contact-label-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact-label-text {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 300;
+    width: 30%;
+    line-height: 20px;
+}
+
+.contact-value-text {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 12px;
+    width: 70%;
+    overflow-wrap: anywhere;
+    line-height: 20px;
+}
+
+.item-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    margin-top: 10px;
+}
+
+.edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    width: 48%;
+    height: 35px;
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.delete-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-blue);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 48%;
+    height: 35px;
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-size: 12px;
+    padding: 0px;
+}
+
+.edit-item-icon,
+.delete-item-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+/* light-theme */
+.light-theme .contact-item-container {
+    background-color: var(--background-light);
+    border-color: var(--border-light);
+}
+
+.light-theme .contact-label-text {
+    color: var(--text-light);
+}
+
+.light-theme .contact-value-text {
+    color: var(--text-light);
+}
+
+.light-theme .edit-button {
+    border: 1px solid var(--border-light);
+}
+
+.light-theme .delete-button {
+    color: var(--text-light-secondary);
+}
+
+.light-theme .edit-item-icon {
+    color: var(--primary-blue);
+}
+
+.light-theme .delete-item-icon {
+    color: var(--color-dark);
+}
+
+
+
+/* dark-theme */
+.dark-theme .contact-item-container {
+    background-color: var(--background-dark);
+    border-color: var(--border-dark);
+}
+
+.dark-theme .contact-label-text {
+    color: var(--text-dark);
+}
+
+.dark-theme .contact-value-text {
+    color: var(--text-dark);
+}
+
+.dark-theme .edit-button {
+    color: var(--color-dark);
+    border: 1px solid var(--border-dark);
+}
+
+.dark-theme .delete-button {
+    color: var(--color-dark);
+}
+
+.dark-theme .edit-item-icon,
+.dark-theme .delete-item-icon {
+    color: var(--background-light);
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .contact-list-item {
+        width: 46%;
+    }
+
+    .contact-item-container {
+        flex-direction: column;
+        min-height: 160px;
+    }
+
+    .contact-details-container {
+        width: 100%;
+        height: 75%;
+        padding-left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-label-text {
+        font-size: 11px;
+        width: 30%;
+    }
+
+    .contact-value-text {
+        font-size: 11px;
+    }
+
+    .item-button-container {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .edit-button,
+    .delete-button {
+        width: 48%;
+        height: 35px;
+        border-radius: 25px;
+    }
+
+    .light-theme .edit-button {
+        border: 1px solid var(--border-light);
+    }
+
+    .dark-theme .edit-button {
+        border: 1px solid var(--border-dark);
+    }
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .contact-list-item {
+        width: 30%;
+    }
+
+    .edit-button{
+        font-size: 10px;
+    }
+
+    .delete-button{
+        font-size: 10px;
+    }
+}
