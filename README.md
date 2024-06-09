@@ -12,8 +12,7 @@ This is a Contact List application built using React and Redux. The application 
 - Dark and light mode toggle.
 - Search contacts.
 - Notifications for actions using `react-toastify`.
-- Responsive design.
-
+- Responsive design. Desktop View (768px above, 992px above) and Mobile View (768px below)
 
 ## Mockup
 
