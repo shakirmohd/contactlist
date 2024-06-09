@@ -10,11 +10,13 @@ This is a Contact List application built using React and Redux. The application 
 
 ## Features
 
-- Add, edit, delete, and view contacts.
-- Dark and light mode toggle.
-- Search contacts.
+- CRUD Operations (Create, Read, Update, Delete) on contacts.
+- Dark and Light Mode Toggle.
+- Search Functionality.
+- Monitors the number of Personal (male/female) and Business contacts.
 - Notifications for actions using `react-toastify`.
-- Responsive design. Desktop View (768px above, 992px above) and Mobile View (768px below)
+- User-Friendly and Responsive design. Desktop View (768px above, 992px above) and Mobile View (768px below).
+- Validation Messages of Actions in the app.
 
 ## Mockup
 
