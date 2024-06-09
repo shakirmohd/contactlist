@@ -16,7 +16,7 @@ This is a Contact List application built using React and Redux. The application 
 - Monitors the number of Personal (male/female) and Business contacts.
 - Notifications for actions using `react-toastify`.
 - User-Friendly and Responsive design. Desktop View (768px above, 992px above) and Mobile View (768px below).
-- Validation Messages of Actions in the app.
+- Validation Messages.
 
 ## Mockup
 
